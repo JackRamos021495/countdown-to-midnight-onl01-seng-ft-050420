@@ -13,7 +13,7 @@ def countdown_with_sleep(integer)
     puts "should take at least 5 seconds to execute"
     sleep(1)
     integer -= 1
-    
+
 
   end
 end
