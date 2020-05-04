@@ -12,7 +12,7 @@ def countdown_with_sleep(integer)
   while integer >= 5
     puts "should take at least 5 seconds to execute"
     integer -= 1
-    sleep(integer.second)
+    sleep(integer.seconds)
 
   end
 end
